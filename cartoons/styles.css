@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+#img1{
+    width:330px;
+    height: 290px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.d1 {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#nav1 {
+    text-align: center;
+}
+
+#nav1 button {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#nav1 button:hover {
+    background: #555;
+}
+
+#nav1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-section {
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content-section h2 {
+    color: #333;
+}
+
+.content-section ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#next-page-btn {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#next-page-btn:hover {
+    background-color: #45a049;
+}
+
+#f1 {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
